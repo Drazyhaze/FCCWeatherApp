@@ -16,7 +16,8 @@ var streamify    = require('gulp-streamify');
 var sourcemaps   = require('gulp-sourcemaps');
 var concat       = require('gulp-concat');
 var babel        = require('gulp-babel');
-var ghPages      = require('gulp-gh-pages');
+var surge = require('gulp-surge');
+// var ghPages      = require('gulp-gh-pages');
 var prod         = gutil.env.prod;
 
 var onError = function(err) {
@@ -90,7 +91,14 @@ gulp.task('serve', function() {
 // use gulp-sequence to finish building html, sass and js before first page load
 gulp.task('default', gulpSequence(['html', 'sass', 'js'], 'serve'));
 
-gulp.task('deploy', function() {
-  return gulp.src('./build/**/*')
-    .pipe(ghPages());
-});
+gulp.task('deploy', [], function () {
+  return surge({
+    project: './build',         // Path to your static build directory
+    domain: 'ubiquitous-apparel.surge.sh'  // Your domain or Surge subdomain
+  })
+})
+
+// gulp.task('deploy', function() {
+//   return gulp.src('./build/**/*')
+//     .pipe(ghPages());
+// });
