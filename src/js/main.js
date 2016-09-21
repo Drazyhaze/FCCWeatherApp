@@ -25,7 +25,7 @@ var getWeather = function(latitude, longitude) {
 
 
 $(".tempbutton").click(function() {
-		$(".tempdiv").html("<h6>Processing...</h6>");
+		$(".tempdiv").html("<h6>Processing...</h6>");	
     units = units === "metric" ? "imperial" : "metric";
     getGeo();
     celc = celc === "&deg;C" ? "&deg;F" : "&deg;C";
