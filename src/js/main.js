@@ -6,13 +6,13 @@ $(document).foundation();
 var gKey = "AIzaSyBOJ0bIBihgCBv5i0msRI2aOPe9j-UuiV0";
 var units = "metric";
 var openWeatherApi = "&appid=41bdff37ae42874d9066356544230f3b";
-var iconUrl = "http://openweathermap.org/img/w/";
+var iconUrl = "https://openweathermap.org/img/w/";
 var celc = "&deg;C";
 // var latitude = 37.386052;
 // var longitude = -122.083851;
 var getWeather = function(latitude, longitude) {
 
-    var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + openWeatherApi + "&units=";
+    var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + openWeatherApi + "&units=";
     console.log(url);
     $.getJSON(url + units, function(data) {
         console.log(data);
