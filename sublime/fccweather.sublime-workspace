@@ -1,0 +1,345 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"clor",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Clor",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 256.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"plugin install Emmet",
+			"emmet",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)v",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control: Install Package",
+			"Emmet",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/webdesign/fccweather/src/templates/index.jade",
+		"/Users/webdesign/fccweather/src/js/main.js",
+		"/Users/webdesign/fccweather/src/scss/app.scss",
+		"/Users/webdesign/weatherapp/src/js/main.js",
+		"/Users/webdesign/weatherapp/src/scss/app.scss",
+		"/Users/webdesign/weatherapp/src/templates/index.html",
+		"/Users/webdesign/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/webdesign/weatherapp/build/stylesheets/app.css",
+		"/Users/webdesign/weatherapp/build/index.html",
+		"/Users/webdesign/weatherapp/build/js/bundle.js",
+		"/Users/webdesign/weatherapp/bower.json",
+		"/Users/webdesign/weatherapp/build/js/bundle.js.map",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/dedicatedcoc.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/development.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/engagement.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/global.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/casestudy.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/index.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/government.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/retail.html",
+		"/Users/webdesign/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/webdesign/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/style.css",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/Sublime-Workstation/ubnsoft.sublime-workspace",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/UBNSoft_HTML/enterpriseadm.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Misc/GitHub/Respositories/Quote Machine/FCCQuoteMachine-Drazy_Style.css",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Misc/GitHub/Respositories/Quote Machine/FCCQuoteMachine-Drazy.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Misc/GitHub/Respositories/Quote Machine/FCCQuoteMachine-Drazy_JS.js",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Development/Sites/RythymNLB/Development/index.html",
+		"/Users/webdesign/Desktop/Projects/NLBS Wip/index.html",
+		"/Volumes/UNTITLED/www.ubnsoft.com/data-warehouse/index.html",
+		"/Users/webdesign/Library/Application Support/Brackets/extensions/user/chiraggude.monokai-redux/theme.css",
+		"/Users/webdesign/Library/Application Support/Brackets/extensions/user/aui/aui.css",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/Chef Kerns - PureWild/Email Signature/Version1/PureWild_emailsig_v1.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/Chef Kerns - PureWild/Email Signature/Version1/PureWild_EmailSig_v2.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Sites/phplearning/wp-content/themes/drazy/style.css",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Misc/HTML Templates/Spirit8/My Site/index.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Misc/HTML Templates/Spirit8/My Site/css/style.css",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/Chef Kerns - PureWild/Email Signature/Version1/emailsig_v1.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/NLB Distribution Center/Donation Email Receipt/Version3/HTML/DistributionCenter_EmailReceipt_V3.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Misc/Responsive Email Templates/Email Signature Template/Professional Email Signatures Template - ESignatures/demo1.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/NLB Distribution Center/Donation Email Receipt/Version4/HTML/DC_Receipt_V4.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/NLB Distribution Center/Donation Email Receipt/Version4/HTML/V4Test.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Misc/Responsive Email Templates/Cerberus/Cerberus-master/cerberus-responsive.html",
+		"/Users/webdesign/Library/Application Support/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/Penn Hodge Updates/June 27th 2016/For Sale : Lease/HTML/forlease_html.html",
+		"/Users/webdesign/Library/Application Support/Yummy FTP/Remote Edits/martechrecruiter.com Edits/index.php/index.php",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Sites/BACKUPS/MarTech Recruiter/new/wp-config.php",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/Dusty LaBossiere/Email Signature/Version 1/DustyLaBossiere_EmailSigV1.html",
+		"/Users/webdesign/Desktop/DustyLaBossiere_EmailSigV1.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Clients/Penn Hodge Updates/June 27th 2016/For Sale : Lease/HTML/forsale_html.html",
+		"/Users/webdesign/Desktop/Projects/My Portfolio/index.html",
+		"/Users/webdesign/Desktop/Projects/My Portfolio/css/styles.css",
+		"/Users/webdesign/Desktop/Projects/FirstSite/My First Website/whoiam.html",
+		"/Users/webdesign/Desktop/Projects/My First Website/styles.css",
+		"/Users/webdesign/Desktop/Projects/My First Website/index.html",
+		"/Volumes/Studios/NLB Studios/NLBS Jobs/Web Design/Misc/Themes/Inovado/4.6.6/Upload/inovado/style.css",
+		"/Users/webdesign/Desktop/emailsig.html",
+		"/Users/webdesign/Desktop/Projects/Penn Hode Updates/styles.css",
+		"/Users/webdesign/Desktop/Projects/Penn Hode Updates/ForSaleLeaseConcept1.html",
+		"/Users/webdesign/Desktop/DemoHTML.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"4",
+			"lorum",
+			"jquery",
+			".current",
+			"&amp;",
+			"&",
+			"Source Sans Pro",
+			"Raleway",
+			"text-center",
+			"FCAC45",
+			"8pt",
+			"40",
+			"1200px",
+			"1245",
+			"li",
+			"fsdivpad",
+			"</h1>",
+			"<h1>",
+			"<h1></h1>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&amp;",
+			"Poppins",
+			"8dc641",
+			"12pt",
+			"60",
+			"fsdivpadleft",
+			"</h4>",
+			"<h4>",
+			"<h4></h4>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
